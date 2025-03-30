@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Personal Finance Tracker</h1>
+        
+        <!-- Spending Summary Section -->
+        <h2>Spending Summary</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Total Spent</th>
+                </tr>
+            </thead>
+            <tbody id="summary-table">
+                <!-- Data will be inserted here dynamically -->
+            </tbody>
+        </table>
+        
+        <!-- Ask AI Section -->
+        <h2>Ask AI About Your Finances</h2>
+        <div class="ai-section">
+            <input type="text" id="question" placeholder="Enter your question...">
+            <button id="ask-btn">Ask</button>
+        </div>
+        <p id="ai-response"></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
